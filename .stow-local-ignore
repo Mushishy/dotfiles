@@ -31,5 +31,4 @@ _darcs
 ^/Brewfile$
 ^/installed\.txt$
 ^/docs$
-^/config\.local$
 ^/RectangleConfig\.json$

@@ -39,17 +39,6 @@ from ever being treated as stow targets.
 
 to copy all configurations over to new Mac machine use `Migration Assistant`
 
-## EditorConfig
-
-`editorconfig/.editorconfig` covers Go, Kubernetes/YAML manifests, Helm,
-Terraform, shell scripts, and Makefiles/Dockerfiles - the common surface for
-Linux/Kubernetes admin work. Editors need a plugin to actually read the file:
-
-- VS Code (macOS/Linux/Windows): install **EditorConfig for VS Code**
-  (`editorconfig.editorconfig`, listed in the `Brewfile`). It's a `brew bundle`
-  entry only, so on Windows install it manually from the Marketplace.
-- Vim/Neovim: built into most modern setups, or use `editorconfig-vim`.
-
 ## SSH
 
 See [docs/ssh.md](docs/ssh.md) for VPN/tunnel commands, proxy jumping, X11 and

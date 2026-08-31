@@ -1,0 +1,29 @@
+Binary Ninja.app
+CopyClip.app
+Dark Reader for Safari.app
+Discord.app
+Docker.app
+Firefox.app
+Keka.app
+ManaBox.app
+Microsoft Excel.app
+Microsoft PowerPoint.app
+Microsoft Word.app
+Obsidian.app
+Parallels Desktop.app
+Rancher Desktop.app
+Rectangle.app
+Royal TSX.app
+Safari.app
+Secretive.app
+Steam.app
+Tailscale.app
+Tapo.app
+Tot.app
+uBlock Origin Lite.app
+Utilities
+Visual Studio Code.app
+VLC.app
+Vorssaint.app
+WhatsApp.app
+Wireshark.app

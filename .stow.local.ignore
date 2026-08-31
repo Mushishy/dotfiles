@@ -1,0 +1,35 @@
+# ~./dotfiles/.stow.local.ignore: Files to be ignored by gnu 'stow'
+#
+# Comments and blank lines are allowed.
+#
+# See 'info stow' section "4 Ignore Lists" for more information
+
+RCS
+.+,v
+
+CVS
+\.\#.+       # CVS conflict files / emacs lock files
+\.cvsignore
+
+\.svn
+_darcs
+\.hg
+
+\.git
+\.gitignore
+
+.+~          # emacs backup files
+\#.*\#       # emacs autosave files
+
+\.DS_Store
+
+^/README.*
+^/LICENSE.*
+^/COPYING
+
+# repo metadata that sits at the top level, not inside a package
+^/Brewfile$
+^/installed\.txt$
+^/docs$
+^/config\.local$
+^/RectangleConfig\.json$

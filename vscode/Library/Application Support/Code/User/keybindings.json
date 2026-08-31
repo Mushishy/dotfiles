@@ -1,0 +1,15 @@
+// Place your key bindings in this file to override the defaults
+[
+  // Windows & Linux: Ctrl + Alt + M
+  {
+    "key": "ctrl+alt+m",
+    "command": "platformio-ide.uploadAndMonitor",
+    "when": "isWindows || isLinux"
+  },
+  // macOS: Cmd + Alt + M (or Option + Cmd + M)
+  {
+    "key": "cmd+alt+m",
+    "command": "platformio-ide.uploadAndMonitor",
+    "when": "isMac"
+  }
+]

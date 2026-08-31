@@ -1,0 +1,57 @@
+{
+    "svelte.enable-ts-plugin": true,
+    "[dockercompose]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2,
+        "editor.autoIndent": "advanced",
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "[github-actions-workflow]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "git.confirmSync": true,
+    "json.schemaDownload.trustedDomains": {
+        "https://schemastore.azurewebsites.net/": true,
+        "https://raw.githubusercontent.com/": true,
+        "https://www.schemastore.org/": true,
+        "https://json.schemastore.org/": true,
+        "https://json-schema.org/": true,
+        "https://shadcn-svelte.com/": true
+    },
+    "parallels-desktop.extension.path": "/Users/kono/.parallels-desktop-vscode",
+    "parallels-desktop.devops-service.path": "/Users/kono/.parallels-desktop-vscode/tools/prldevops",
+    "parallels-desktop.prlctl.path": "/usr/local/bin/prlctl",
+    "parallels-desktop.git.path": "/usr/bin/git",
+    "parallels-desktop.brew.path": "/opt/homebrew/bin/brew",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.minimap.enabled": false,
+    "workbench.colorTheme": "Dark Modern",
+    "chat.contextUsage.enabled": false,
+    "terminal.integrated.allowedLinkSchemes": [
+        "file",
+        "http",
+        "https",
+        "mailto",
+        "vscode",
+        "vscode-insiders",
+        "docker-desktop"
+    ],
+    "go.toolsManagement.autoUpdate": true,
+    "claudeCode.preferredLocation": "panel",
+    "chat.viewSessions.orientation": "stacked",
+    "chat.titleBar.openInAgentsWindow.enabled": false,
+    "chat.tools.urls.autoApprove": {
+        "https://code.visualstudio.com": true,
+        "https://github.com": true,
+        "https://www.qemu.org": true,
+        "https://*.qemu.org": true,
+        "https://renode.readthedocs.io": true,
+        "https://*.readthedocs.io": true,
+        "https://bellard.org/tinyemu": true,
+        "https://www.wireshark.org": true,
+    },
+    "redhat.telemetry.enabled": false,
+    "http.systemCertificatesNode": true,
+    "http.proxyStrictSSL": true,
+    "workbench.experimental.modernUI": false
+}

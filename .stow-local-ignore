@@ -21,7 +21,7 @@ _darcs
 .+~          # emacs backup files
 \#.*\#       # emacs autosave files
 
-\.DS_Store
+.*\.DS_Store$
 
 ^/README.*
 ^/LICENSE.*
